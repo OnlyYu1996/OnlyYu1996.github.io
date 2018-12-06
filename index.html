@@ -3,12 +3,12 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>我的主页</title>
-    <link rel="shortcut icon" href="./img/icon.png">
     <link rel="stylesheet" type="text/css" href="./css/index.css">
-    <link rel="stylesheet" href="./css/circle.css">
+    <script src="https://cdn.bootcss.com/jquery/1.2.3/jquery.js"></script>
+    <script src="./js/rotate.js"></script>
 </head>
 
 <body>
@@ -222,7 +222,7 @@
                 <!--外围实体内容块-->
                 <div class="future_piece" ondragstart="return false">
                     <!--内容-->
-                    <span>第一块</span>
+                    <span><a target="_blank" href="#">第一块</a></span>
                     <!--渐近线-->
                     <div class="line"></div>
                     <!--提示内容-->
@@ -238,7 +238,7 @@
                     </div>
                 </div>
                 <div class="future_piece" ondragstart="return false">
-                    <span>第二块</span>
+                    <span><a target="_blank" href="#">第二块</a></span>
                     <div class="line"></div>
                     <div class="tip">
                         小简介
@@ -280,6 +280,3 @@
 
 </html>
 
-<!-- <script src="./lib/jquery 1-11.min.js"></script> -->
-<script src="https://cdn.bootcss.com/jquery/1.2.3/jquery.js"></script>
-<script src="./js/rotate.js"></script>
